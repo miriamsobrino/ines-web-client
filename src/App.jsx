@@ -18,9 +18,9 @@ function App() {
           <Route path='blog/articles' element={<BlogArticles />} />
           <Route path='blog/articles/:id' element={<BlogDetail />} />
         </Route>
-        <Route path='admin' element={<Admin />} />
-        <Route path='admin/edit' element={<AdminEdit />} />
-        <Route path='admin/create' element={<AdminCreate />} />
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/admin/edit' element={<AdminEdit />} />
+        <Route path='/admin/create' element={<AdminCreate />} />
       </Routes>
     </AuthProvider>
   );

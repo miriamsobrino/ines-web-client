@@ -5,6 +5,7 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
   useEffect(() => {
     const verifyToken = async () => {
@@ -23,6 +24,8 @@ export const AuthProvider = ({ children }) => {
         }
       } catch (error) {
         setIsLoggedIn(false);
+      } finally {
+        setIsLoading(false);
       }
     };
 

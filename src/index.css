@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'Brown-sugar';
+    src: url('./fonts/Brown-Sugar.ttf') format('truetype');
+  }
+}
+
+:root {
+  --background: #faf9f7;
+  --primary: #252324;
+  --secondary: #f0a3c7;
+  --secondary-v2: rgba(240, 163, 199, 0.3);
+  --accent: #dffe0e;
+}

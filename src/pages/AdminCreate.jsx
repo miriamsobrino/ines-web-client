@@ -109,11 +109,13 @@ const AdminCreate = () => {
           <h2 className='text-2xl mb-4'>Crear artículo</h2>
           <form onSubmit={handleSubmit} className='flex flex-col gap-2 w-[40%]'>
             <input
+              className='px-2'
               placeholder='Título'
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
             <input
+              className='px-2'
               placeholder='Descripción'
               value={summary}
               onChange={(e) => setSummary(e.target.value)}

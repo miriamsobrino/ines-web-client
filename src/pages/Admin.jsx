@@ -36,13 +36,13 @@ const Admin = () => {
       <h2 className='text-2xl mb-4'>Admin Panel</h2>
       <form onSubmit={handleSubmit} className='flex flex-col gap-2 w-[20%]'>
         <input
-          className='mx-2'
+          className='px-2'
           placeholder='Usuario'
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
         <input
-          className='mx-2'
+          className='px-2'
           type='password'
           placeholder='Contraseña'
           value={password}

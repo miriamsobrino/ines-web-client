@@ -12,17 +12,10 @@ export const Clients = () => {
           className='max-w-28 max-h-28 object-contain'
           src='./Ferrarini_Logo.webp'
         />
-        <img
-          className='max-w-28 max-h-28 object-contain'
-          src='./logo-rasif.webp'
-        />
+
         <img
           className='max-w-28 max-h-28 object-contain'
           src='./Logo-NutNut.png'
-        />
-        <img
-          className='max-w-28 max-h-28 object-contain'
-          src='./MC_logo.webp'
         />
       </div>
       <div className='lg:w-[40%] flex flex-col gap-2 text-center'>
@@ -48,19 +41,6 @@ export const Clients = () => {
         <div>
           <img
             className='max-w-[400px] max-h-[400px] object-contain'
-            src='./mockup-2.webp'
-          />
-          <a
-            href='https://instagram.com/rasifmadrid'
-            className='flex items-center justify-center gap-2 mx-auto transition-all duration-300 hover:text-secondary hover:scale-105'
-          >
-            @rasifmadrid
-            <MdArrowOutward />
-          </a>
-        </div>
-        <div>
-          <img
-            className='max-w-[400px] max-h-[400px] object-contain'
             src='./mockup-3.webp'
           />
           <a
@@ -68,19 +48,6 @@ export const Clients = () => {
             className='flex items-center justify-center gap-2 mx-auto transition-all duration-300 hover:text-secondary hover:scale-105'
           >
             @nutnutspain
-            <MdArrowOutward />
-          </a>
-        </div>
-        <div>
-          <img
-            className='max-w-[400px] max-h-[400px] object-contain'
-            src='./mockup-4.webp'
-          />
-          <a
-            href='https://instagram.com/mamachicobrasa'
-            className='flex items-center justify-center gap-2 mx-auto transition-all duration-300 hover:text-secondary hover:scale-105'
-          >
-            @mamachicobrasa
             <MdArrowOutward />
           </a>
         </div>

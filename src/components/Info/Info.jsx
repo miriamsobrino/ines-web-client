@@ -1,5 +1,3 @@
-import { IoMdMail } from 'react-icons/io';
-import { RiInstagramFill } from 'react-icons/ri';
 import { FaInstagram } from 'react-icons/fa';
 import { TbPaperclip } from 'react-icons/tb';
 import { Badge } from '../Badge/Badge';
@@ -30,9 +28,9 @@ export const Info = () => {
         </div>
         <div className=' w-full lg:w-[34%]'>
           <h1 className='text-3xl font-bold'>Inés Sobrino</h1>
-          <span className='text-lg bg-accent px-2'>
+          <h2 className='text-lg bg-accent px-2 inline'>
             Community & Social Media Manager
-          </span>
+          </h2>
 
           <div className='mx-auto w-full justify-center lg:justify-start flex gap-2 mt-4'>
             <Badge
